@@ -12,6 +12,14 @@
 		C034B3FD2A379EFC00919D2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C034B3FB2A379EFC00919D2A /* Main.storyboard */; };
 		C034B3FF2A379EFC00919D2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C034B3FE2A379EFC00919D2A /* Assets.xcassets */; };
 		C034B4022A379EFC00919D2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C034B4002A379EFC00919D2A /* LaunchScreen.storyboard */; };
+		C034B4162A37A26400919D2A /* BatchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B40E2A37A26400919D2A /* BatchService.swift */; };
+		C034B4172A37A26400919D2A /* Queries.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B40F2A37A26400919D2A /* Queries.swift */; };
+		C034B4182A37A26400919D2A /* Push.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4102A37A26400919D2A /* Push.swift */; };
+		C034B4192A37A26400919D2A /* Ref.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4112A37A26400919D2A /* Ref.swift */; };
+		C034B41A2A37A26400919D2A /* RealmHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4122A37A26400919D2A /* RealmHelper.swift */; };
+		C034B41B2A37A26400919D2A /* StorageHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4132A37A26400919D2A /* StorageHelpers.swift */; };
+		C034B41C2A37A26400919D2A /* DatabaseHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4142A37A26400919D2A /* DatabaseHelpers.swift */; };
+		C034B41D2A37A26400919D2A /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4152A37A26400919D2A /* Database.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,14 @@
 		C034B3FE2A379EFC00919D2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C034B4012A379EFC00919D2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C034B4032A379EFC00919D2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C034B40E2A37A26400919D2A /* BatchService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatchService.swift; sourceTree = "<group>"; };
+		C034B40F2A37A26400919D2A /* Queries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queries.swift; sourceTree = "<group>"; };
+		C034B4102A37A26400919D2A /* Push.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Push.swift; sourceTree = "<group>"; };
+		C034B4112A37A26400919D2A /* Ref.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ref.swift; sourceTree = "<group>"; };
+		C034B4122A37A26400919D2A /* RealmHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmHelper.swift; sourceTree = "<group>"; };
+		C034B4132A37A26400919D2A /* StorageHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageHelpers.swift; sourceTree = "<group>"; };
+		C034B4142A37A26400919D2A /* DatabaseHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseHelpers.swift; sourceTree = "<group>"; };
+		C034B4152A37A26400919D2A /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 		C034B3F42A379EFC00919D2A /* HB */ = {
 			isa = PBXGroup;
 			children = (
+				C034B40D2A37A24300919D2A /* API */,
 				C034B4092A379F1700919D2A /* Application */,
 			);
 			path = HB;
@@ -70,6 +87,21 @@
 				C034B4032A379EFC00919D2A /* Info.plist */,
 			);
 			path = Application;
+			sourceTree = "<group>";
+		};
+		C034B40D2A37A24300919D2A /* API */ = {
+			isa = PBXGroup;
+			children = (
+				C034B40E2A37A26400919D2A /* BatchService.swift */,
+				C034B4152A37A26400919D2A /* Database.swift */,
+				C034B4142A37A26400919D2A /* DatabaseHelpers.swift */,
+				C034B4102A37A26400919D2A /* Push.swift */,
+				C034B40F2A37A26400919D2A /* Queries.swift */,
+				C034B4122A37A26400919D2A /* RealmHelper.swift */,
+				C034B4112A37A26400919D2A /* Ref.swift */,
+				C034B4132A37A26400919D2A /* StorageHelpers.swift */,
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,7 +176,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				C034B3F62A379EFC00919D2A /* AppDelegate.swift in Sources */,
+				C034B4182A37A26400919D2A /* Push.swift in Sources */,
 				C034B3F82A379EFC00919D2A /* SceneDelegate.swift in Sources */,
+				C034B4172A37A26400919D2A /* Queries.swift in Sources */,
+				C034B41A2A37A26400919D2A /* RealmHelper.swift in Sources */,
+				C034B4162A37A26400919D2A /* BatchService.swift in Sources */,
+				C034B4192A37A26400919D2A /* Ref.swift in Sources */,
+				C034B41B2A37A26400919D2A /* StorageHelpers.swift in Sources */,
+				C034B41D2A37A26400919D2A /* Database.swift in Sources */,
+				C034B41C2A37A26400919D2A /* DatabaseHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
