@@ -20,6 +20,31 @@
 		C034B41B2A37A26400919D2A /* StorageHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4132A37A26400919D2A /* StorageHelpers.swift */; };
 		C034B41C2A37A26400919D2A /* DatabaseHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4142A37A26400919D2A /* DatabaseHelpers.swift */; };
 		C034B41D2A37A26400919D2A /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4152A37A26400919D2A /* Database.swift */; };
+		C034B4202A37A4D800919D2A /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B41F2A37A4D800919D2A /* AppCoordinator.swift */; };
+		C034B4252A37A50B00919D2A /* InitialViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4222A37A50B00919D2A /* InitialViewModel.swift */; };
+		C034B4262A37A50B00919D2A /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4232A37A50B00919D2A /* InitialViewController.swift */; };
+		C034B4272A37A50B00919D2A /* InitialCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4242A37A50B00919D2A /* InitialCoordinator.swift */; };
+		C034B42A2A37A55300919D2A /* AuthenticationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4292A37A55300919D2A /* AuthenticationCoordinator.swift */; };
+		C034B4442A37A58400919D2A /* SignEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B42C2A37A58400919D2A /* SignEmailViewController.swift */; };
+		C034B4452A37A58400919D2A /* SignEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B42D2A37A58400919D2A /* SignEmailView.swift */; };
+		C034B4462A37A58400919D2A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B42F2A37A58400919D2A /* SignUpViewController.swift */; };
+		C034B4472A37A58400919D2A /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4302A37A58400919D2A /* SignUpViewModel.swift */; };
+		C034B4482A37A58400919D2A /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4312A37A58400919D2A /* SignUpView.swift */; };
+		C034B4492A37A58400919D2A /* VerifyPhoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4332A37A58400919D2A /* VerifyPhoneView.swift */; };
+		C034B44A2A37A58400919D2A /* VerifyPhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4342A37A58400919D2A /* VerifyPhoneViewController.swift */; };
+		C034B44B2A37A58400919D2A /* OnboardingProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4362A37A58400919D2A /* OnboardingProgressView.swift */; };
+		C034B44C2A37A58400919D2A /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4372A37A58400919D2A /* OnboardingViewController.swift */; };
+		C034B44D2A37A58400919D2A /* OnboardingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4382A37A58400919D2A /* OnboardingCell.swift */; };
+		C034B44E2A37A58400919D2A /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4392A37A58400919D2A /* OnboardingViewModel.swift */; };
+		C034B44F2A37A58400919D2A /* SignViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B43B2A37A58400919D2A /* SignViewModel.swift */; };
+		C034B4502A37A58400919D2A /* SignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B43C2A37A58400919D2A /* SignView.swift */; };
+		C034B4512A37A58400919D2A /* SignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B43D2A37A58400919D2A /* SignViewController.swift */; };
+		C034B4522A37A58400919D2A /* SignHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B43F2A37A58400919D2A /* SignHeaderView.swift */; };
+		C034B4532A37A58400919D2A /* SignPhoneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4412A37A58400919D2A /* SignPhoneViewModel.swift */; };
+		C034B4542A37A58400919D2A /* SignPhoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4422A37A58400919D2A /* SignPhoneView.swift */; };
+		C034B4552A37A58400919D2A /* SignPhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4432A37A58400919D2A /* SignPhoneViewController.swift */; };
+		C034B4592A37A5C300919D2A /* TabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4572A37A5C300919D2A /* TabBarCoordinator.swift */; };
+		C034B45A2A37A5C300919D2A /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4582A37A5C300919D2A /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +63,31 @@
 		C034B4132A37A26400919D2A /* StorageHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageHelpers.swift; sourceTree = "<group>"; };
 		C034B4142A37A26400919D2A /* DatabaseHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseHelpers.swift; sourceTree = "<group>"; };
 		C034B4152A37A26400919D2A /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		C034B41F2A37A4D800919D2A /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		C034B4222A37A50B00919D2A /* InitialViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewModel.swift; sourceTree = "<group>"; };
+		C034B4232A37A50B00919D2A /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		C034B4242A37A50B00919D2A /* InitialCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialCoordinator.swift; sourceTree = "<group>"; };
+		C034B4292A37A55300919D2A /* AuthenticationCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationCoordinator.swift; sourceTree = "<group>"; };
+		C034B42C2A37A58400919D2A /* SignEmailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignEmailViewController.swift; sourceTree = "<group>"; };
+		C034B42D2A37A58400919D2A /* SignEmailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignEmailView.swift; sourceTree = "<group>"; };
+		C034B42F2A37A58400919D2A /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		C034B4302A37A58400919D2A /* SignUpViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		C034B4312A37A58400919D2A /* SignUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		C034B4332A37A58400919D2A /* VerifyPhoneView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyPhoneView.swift; sourceTree = "<group>"; };
+		C034B4342A37A58400919D2A /* VerifyPhoneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyPhoneViewController.swift; sourceTree = "<group>"; };
+		C034B4362A37A58400919D2A /* OnboardingProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingProgressView.swift; sourceTree = "<group>"; };
+		C034B4372A37A58400919D2A /* OnboardingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		C034B4382A37A58400919D2A /* OnboardingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingCell.swift; sourceTree = "<group>"; };
+		C034B4392A37A58400919D2A /* OnboardingViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		C034B43B2A37A58400919D2A /* SignViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignViewModel.swift; sourceTree = "<group>"; };
+		C034B43C2A37A58400919D2A /* SignView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignView.swift; sourceTree = "<group>"; };
+		C034B43D2A37A58400919D2A /* SignViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignViewController.swift; sourceTree = "<group>"; };
+		C034B43F2A37A58400919D2A /* SignHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignHeaderView.swift; sourceTree = "<group>"; };
+		C034B4412A37A58400919D2A /* SignPhoneViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignPhoneViewModel.swift; sourceTree = "<group>"; };
+		C034B4422A37A58400919D2A /* SignPhoneView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignPhoneView.swift; sourceTree = "<group>"; };
+		C034B4432A37A58400919D2A /* SignPhoneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignPhoneViewController.swift; sourceTree = "<group>"; };
+		C034B4572A37A5C300919D2A /* TabBarCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarCoordinator.swift; sourceTree = "<group>"; };
+		C034B4582A37A5C300919D2A /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +120,7 @@
 		C034B3F42A379EFC00919D2A /* HB */ = {
 			isa = PBXGroup;
 			children = (
+				C034B41E2A37A4B300919D2A /* Flows */,
 				C034B40D2A37A24300919D2A /* API */,
 				C034B4092A379F1700919D2A /* Application */,
 			);
@@ -102,6 +153,118 @@
 				C034B4132A37A26400919D2A /* StorageHelpers.swift */,
 			);
 			path = API;
+			sourceTree = "<group>";
+		};
+		C034B41E2A37A4B300919D2A /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				C034B4562A37A5C300919D2A /* Tabbar */,
+				C034B4282A37A52300919D2A /* Auth */,
+				C034B4212A37A4EE00919D2A /* Initial */,
+				C034B41F2A37A4D800919D2A /* AppCoordinator.swift */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		C034B4212A37A4EE00919D2A /* Initial */ = {
+			isa = PBXGroup;
+			children = (
+				C034B4242A37A50B00919D2A /* InitialCoordinator.swift */,
+				C034B4232A37A50B00919D2A /* InitialViewController.swift */,
+				C034B4222A37A50B00919D2A /* InitialViewModel.swift */,
+			);
+			path = Initial;
+			sourceTree = "<group>";
+		};
+		C034B4282A37A52300919D2A /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				C034B42B2A37A58400919D2A /* Email */,
+				C034B4352A37A58400919D2A /* Onboarding */,
+				C034B4402A37A58400919D2A /* Phone */,
+				C034B43A2A37A58400919D2A /* Sign */,
+				C034B42E2A37A58400919D2A /* SignUp */,
+				C034B4322A37A58400919D2A /* VerifyPhone */,
+				C034B4292A37A55300919D2A /* AuthenticationCoordinator.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		C034B42B2A37A58400919D2A /* Email */ = {
+			isa = PBXGroup;
+			children = (
+				C034B42C2A37A58400919D2A /* SignEmailViewController.swift */,
+				C034B42D2A37A58400919D2A /* SignEmailView.swift */,
+			);
+			path = Email;
+			sourceTree = "<group>";
+		};
+		C034B42E2A37A58400919D2A /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				C034B42F2A37A58400919D2A /* SignUpViewController.swift */,
+				C034B4302A37A58400919D2A /* SignUpViewModel.swift */,
+				C034B4312A37A58400919D2A /* SignUpView.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		C034B4322A37A58400919D2A /* VerifyPhone */ = {
+			isa = PBXGroup;
+			children = (
+				C034B4332A37A58400919D2A /* VerifyPhoneView.swift */,
+				C034B4342A37A58400919D2A /* VerifyPhoneViewController.swift */,
+			);
+			path = VerifyPhone;
+			sourceTree = "<group>";
+		};
+		C034B4352A37A58400919D2A /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				C034B4362A37A58400919D2A /* OnboardingProgressView.swift */,
+				C034B4372A37A58400919D2A /* OnboardingViewController.swift */,
+				C034B4382A37A58400919D2A /* OnboardingCell.swift */,
+				C034B4392A37A58400919D2A /* OnboardingViewModel.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		C034B43A2A37A58400919D2A /* Sign */ = {
+			isa = PBXGroup;
+			children = (
+				C034B43B2A37A58400919D2A /* SignViewModel.swift */,
+				C034B43C2A37A58400919D2A /* SignView.swift */,
+				C034B43D2A37A58400919D2A /* SignViewController.swift */,
+				C034B43E2A37A58400919D2A /* Views */,
+			);
+			path = Sign;
+			sourceTree = "<group>";
+		};
+		C034B43E2A37A58400919D2A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C034B43F2A37A58400919D2A /* SignHeaderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C034B4402A37A58400919D2A /* Phone */ = {
+			isa = PBXGroup;
+			children = (
+				C034B4412A37A58400919D2A /* SignPhoneViewModel.swift */,
+				C034B4422A37A58400919D2A /* SignPhoneView.swift */,
+				C034B4432A37A58400919D2A /* SignPhoneViewController.swift */,
+			);
+			path = Phone;
+			sourceTree = "<group>";
+		};
+		C034B4562A37A5C300919D2A /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				C034B4572A37A5C300919D2A /* TabBarCoordinator.swift */,
+				C034B4582A37A5C300919D2A /* TabBarController.swift */,
+			);
+			path = Tabbar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,16 +338,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C034B4442A37A58400919D2A /* SignEmailViewController.swift in Sources */,
+				C034B4202A37A4D800919D2A /* AppCoordinator.swift in Sources */,
+				C034B4262A37A50B00919D2A /* InitialViewController.swift in Sources */,
 				C034B3F62A379EFC00919D2A /* AppDelegate.swift in Sources */,
 				C034B4182A37A26400919D2A /* Push.swift in Sources */,
+				C034B4472A37A58400919D2A /* SignUpViewModel.swift in Sources */,
 				C034B3F82A379EFC00919D2A /* SceneDelegate.swift in Sources */,
+				C034B4462A37A58400919D2A /* SignUpViewController.swift in Sources */,
+				C034B44A2A37A58400919D2A /* VerifyPhoneViewController.swift in Sources */,
+				C034B4502A37A58400919D2A /* SignView.swift in Sources */,
 				C034B4172A37A26400919D2A /* Queries.swift in Sources */,
+				C034B42A2A37A55300919D2A /* AuthenticationCoordinator.swift in Sources */,
+				C034B44B2A37A58400919D2A /* OnboardingProgressView.swift in Sources */,
 				C034B41A2A37A26400919D2A /* RealmHelper.swift in Sources */,
+				C034B4522A37A58400919D2A /* SignHeaderView.swift in Sources */,
 				C034B4162A37A26400919D2A /* BatchService.swift in Sources */,
+				C034B4492A37A58400919D2A /* VerifyPhoneView.swift in Sources */,
+				C034B4512A37A58400919D2A /* SignViewController.swift in Sources */,
+				C034B45A2A37A5C300919D2A /* TabBarController.swift in Sources */,
+				C034B44F2A37A58400919D2A /* SignViewModel.swift in Sources */,
+				C034B4532A37A58400919D2A /* SignPhoneViewModel.swift in Sources */,
+				C034B4542A37A58400919D2A /* SignPhoneView.swift in Sources */,
 				C034B4192A37A26400919D2A /* Ref.swift in Sources */,
+				C034B4592A37A5C300919D2A /* TabBarCoordinator.swift in Sources */,
+				C034B4272A37A50B00919D2A /* InitialCoordinator.swift in Sources */,
+				C034B4552A37A58400919D2A /* SignPhoneViewController.swift in Sources */,
 				C034B41B2A37A26400919D2A /* StorageHelpers.swift in Sources */,
 				C034B41D2A37A26400919D2A /* Database.swift in Sources */,
+				C034B44E2A37A58400919D2A /* OnboardingViewModel.swift in Sources */,
+				C034B44C2A37A58400919D2A /* OnboardingViewController.swift in Sources */,
+				C034B4482A37A58400919D2A /* SignUpView.swift in Sources */,
+				C034B44D2A37A58400919D2A /* OnboardingCell.swift in Sources */,
 				C034B41C2A37A26400919D2A /* DatabaseHelpers.swift in Sources */,
+				C034B4252A37A50B00919D2A /* InitialViewModel.swift in Sources */,
+				C034B4452A37A58400919D2A /* SignEmailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
