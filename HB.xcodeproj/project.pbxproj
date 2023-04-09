@@ -45,6 +45,66 @@
 		C034B4552A37A58400919D2A /* SignPhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4432A37A58400919D2A /* SignPhoneViewController.swift */; };
 		C034B4592A37A5C300919D2A /* TabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4572A37A5C300919D2A /* TabBarCoordinator.swift */; };
 		C034B45A2A37A5C300919D2A /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4582A37A5C300919D2A /* TabBarController.swift */; };
+		C034B46C2A37A7E000919D2A /* TopWishesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B45D2A37A7E000919D2A /* TopWishesViewModel.swift */; };
+		C034B46D2A37A7E000919D2A /* CityMomentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B45E2A37A7E000919D2A /* CityMomentsViewController.swift */; };
+		C034B46E2A37A7E000919D2A /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B45F2A37A7E000919D2A /* HomeViewModel.swift */; };
+		C034B46F2A37A7E000919D2A /* CityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4602A37A7E000919D2A /* CityViewModel.swift */; };
+		C034B4702A37A7E000919D2A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4612A37A7E000919D2A /* HomeViewController.swift */; };
+		C034B4712A37A7E000919D2A /* CityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4622A37A7E000919D2A /* CityViewController.swift */; };
+		C034B4722A37A7E000919D2A /* TopWishesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4632A37A7E000919D2A /* TopWishesViewController.swift */; };
+		C034B4732A37A7E000919D2A /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4652A37A7E000919D2A /* SearchViewController.swift */; };
+		C034B4742A37A7E000919D2A /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4662A37A7E000919D2A /* SearchViewModel.swift */; };
+		C034B4752A37A7E000919D2A /* HouseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4682A37A7E000919D2A /* HouseViewModel.swift */; };
+		C034B4762A37A7E000919D2A /* HouseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4692A37A7E000919D2A /* HouseView.swift */; };
+		C034B4772A37A7E000919D2A /* HouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B46A2A37A7E000919D2A /* HouseViewController.swift */; };
+		C034B4782A37A7E000919D2A /* FeedCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B46B2A37A7E000919D2A /* FeedCoordinator.swift */; };
+		C034B4972A37A7F700919D2A /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B47B2A37A7F600919D2A /* MapViewController.swift */; };
+		C034B4982A37A7F700919D2A /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B47C2A37A7F600919D2A /* MapViewModel.swift */; };
+		C034B4992A37A7F700919D2A /* WishAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B47E2A37A7F600919D2A /* WishAnnotation.swift */; };
+		C034B49A2A37A7F700919D2A /* MapViewWishCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B47F2A37A7F600919D2A /* MapViewWishCard.swift */; };
+		C034B49B2A37A7F700919D2A /* WishMKAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4802A37A7F600919D2A /* WishMKAnnotationView.swift */; };
+		C034B49C2A37A7F700919D2A /* PeopleSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4822A37A7F600919D2A /* PeopleSearchViewModel.swift */; };
+		C034B49D2A37A7F700919D2A /* PeopleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4832A37A7F600919D2A /* PeopleViewModel.swift */; };
+		C034B49E2A37A7F700919D2A /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4842A37A7F600919D2A /* PeopleViewController.swift */; };
+		C034B49F2A37A7F700919D2A /* PeopleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4862A37A7F600919D2A /* PeopleCell.swift */; };
+		C034B4A02A37A7F700919D2A /* PeopleSearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4872A37A7F600919D2A /* PeopleSearchCell.swift */; };
+		C034B4A12A37A7F700919D2A /* PeopleSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4882A37A7F600919D2A /* PeopleSearchViewController.swift */; };
+		C034B4A22A37A7F700919D2A /* InterestingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4892A37A7F600919D2A /* InterestingCoordinator.swift */; };
+		C034B4A32A37A7F700919D2A /* InterestingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B48B2A37A7F600919D2A /* InterestingViewModel.swift */; };
+		C034B4A42A37A7F700919D2A /* InterestingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B48C2A37A7F600919D2A /* InterestingViewController.swift */; };
+		C034B4A52A37A7F700919D2A /* InterestingMapCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B48E2A37A7F600919D2A /* InterestingMapCell.swift */; };
+		C034B4A62A37A7F700919D2A /* StarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B48F2A37A7F600919D2A /* StarCell.swift */; };
+		C034B4A72A37A7F700919D2A /* NewbieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4902A37A7F600919D2A /* NewbieCell.swift */; };
+		C034B4A82A37A7F700919D2A /* InterestingStarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4912A37A7F700919D2A /* InterestingStarCell.swift */; };
+		C034B4A92A37A7F700919D2A /* InterestingHistoriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4922A37A7F700919D2A /* InterestingHistoriesCell.swift */; };
+		C034B4AA2A37A7F700919D2A /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4932A37A7F700919D2A /* UserCell.swift */; };
+		C034B4AB2A37A7F700919D2A /* InterestingPeopleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4942A37A7F700919D2A /* InterestingPeopleCell.swift */; };
+		C034B4AC2A37A7F700919D2A /* HistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4952A37A7F700919D2A /* HistoryCell.swift */; };
+		C034B4AD2A37A7F700919D2A /* InterestingNewbieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4962A37A7F700919D2A /* InterestingNewbieCell.swift */; };
+		C034B4BA2A37A81100919D2A /* CustomDashedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4AF2A37A81100919D2A /* CustomDashedView.swift */; };
+		C034B4BB2A37A81100919D2A /* LocationSearchTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4B12A37A81100919D2A /* LocationSearchTable.swift */; };
+		C034B4BC2A37A81100919D2A /* AddLocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4B22A37A81100919D2A /* AddLocationViewModel.swift */; };
+		C034B4BD2A37A81100919D2A /* AddMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4B32A37A81100919D2A /* AddMapViewController.swift */; };
+		C034B4BE2A37A81100919D2A /* AddWishTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4B52A37A81100919D2A /* AddWishTypeViewController.swift */; };
+		C034B4BF2A37A81100919D2A /* AddWishViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4B62A37A81100919D2A /* AddWishViewModel.swift */; };
+		C034B4C02A37A81100919D2A /* AddWishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4B72A37A81100919D2A /* AddWishView.swift */; };
+		C034B4C12A37A81100919D2A /* AddWishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4B82A37A81100919D2A /* AddWishViewController.swift */; };
+		C034B4C22A37A81100919D2A /* AddWishCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4B92A37A81100919D2A /* AddWishCoordinator.swift */; };
+		C034B4D92A37A86600919D2A /* RoomSettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4C52A37A86600919D2A /* RoomSettingsViewModel.swift */; };
+		C034B4DA2A37A86600919D2A /* RoomSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4C62A37A86600919D2A /* RoomSettingsViewController.swift */; };
+		C034B4DB2A37A86600919D2A /* MessageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4C82A37A86600919D2A /* MessageViewModel.swift */; };
+		C034B4DC2A37A86600919D2A /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4C92A37A86600919D2A /* MessageViewController.swift */; };
+		C034B4DD2A37A86600919D2A /* NewMemberCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4CB2A37A86600919D2A /* NewMemberCell.swift */; };
+		C034B4DE2A37A86600919D2A /* InfoMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4CC2A37A86600919D2A /* InfoMessageCell.swift */; };
+		C034B4DF2A37A86600919D2A /* CustomTextMessageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4CD2A37A86600919D2A /* CustomTextMessageCollectionViewCell.swift */; };
+		C034B4E02A37A86600919D2A /* RoomBannedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4CF2A37A86600919D2A /* RoomBannedViewModel.swift */; };
+		C034B4E12A37A86600919D2A /* RoomBannedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4D02A37A86600919D2A /* RoomBannedViewController.swift */; };
+		C034B4E22A37A86600919D2A /* RoomsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4D12A37A86600919D2A /* RoomsCoordinator.swift */; };
+		C034B4E32A37A86600919D2A /* RoomsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4D32A37A86600919D2A /* RoomsViewModel.swift */; };
+		C034B4E42A37A86600919D2A /* RoomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4D52A37A86600919D2A /* RoomCell.swift */; };
+		C034B4E52A37A86600919D2A /* RoomSettingsHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4D62A37A86600919D2A /* RoomSettingsHeaderCell.swift */; };
+		C034B4E62A37A86600919D2A /* RoomUserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4D72A37A86600919D2A /* RoomUserCell.swift */; };
+		C034B4E72A37A86600919D2A /* RoomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B4D82A37A86600919D2A /* RoomsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,6 +148,66 @@
 		C034B4432A37A58400919D2A /* SignPhoneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignPhoneViewController.swift; sourceTree = "<group>"; };
 		C034B4572A37A5C300919D2A /* TabBarCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarCoordinator.swift; sourceTree = "<group>"; };
 		C034B4582A37A5C300919D2A /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		C034B45D2A37A7E000919D2A /* TopWishesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopWishesViewModel.swift; sourceTree = "<group>"; };
+		C034B45E2A37A7E000919D2A /* CityMomentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityMomentsViewController.swift; sourceTree = "<group>"; };
+		C034B45F2A37A7E000919D2A /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		C034B4602A37A7E000919D2A /* CityViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityViewModel.swift; sourceTree = "<group>"; };
+		C034B4612A37A7E000919D2A /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C034B4622A37A7E000919D2A /* CityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityViewController.swift; sourceTree = "<group>"; };
+		C034B4632A37A7E000919D2A /* TopWishesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopWishesViewController.swift; sourceTree = "<group>"; };
+		C034B4652A37A7E000919D2A /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		C034B4662A37A7E000919D2A /* SearchViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		C034B4682A37A7E000919D2A /* HouseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HouseViewModel.swift; sourceTree = "<group>"; };
+		C034B4692A37A7E000919D2A /* HouseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HouseView.swift; sourceTree = "<group>"; };
+		C034B46A2A37A7E000919D2A /* HouseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HouseViewController.swift; sourceTree = "<group>"; };
+		C034B46B2A37A7E000919D2A /* FeedCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedCoordinator.swift; sourceTree = "<group>"; };
+		C034B47B2A37A7F600919D2A /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		C034B47C2A37A7F600919D2A /* MapViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		C034B47E2A37A7F600919D2A /* WishAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WishAnnotation.swift; sourceTree = "<group>"; };
+		C034B47F2A37A7F600919D2A /* MapViewWishCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewWishCard.swift; sourceTree = "<group>"; };
+		C034B4802A37A7F600919D2A /* WishMKAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WishMKAnnotationView.swift; sourceTree = "<group>"; };
+		C034B4822A37A7F600919D2A /* PeopleSearchViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleSearchViewModel.swift; sourceTree = "<group>"; };
+		C034B4832A37A7F600919D2A /* PeopleViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleViewModel.swift; sourceTree = "<group>"; };
+		C034B4842A37A7F600919D2A /* PeopleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
+		C034B4862A37A7F600919D2A /* PeopleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleCell.swift; sourceTree = "<group>"; };
+		C034B4872A37A7F600919D2A /* PeopleSearchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleSearchCell.swift; sourceTree = "<group>"; };
+		C034B4882A37A7F600919D2A /* PeopleSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleSearchViewController.swift; sourceTree = "<group>"; };
+		C034B4892A37A7F600919D2A /* InterestingCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterestingCoordinator.swift; sourceTree = "<group>"; };
+		C034B48B2A37A7F600919D2A /* InterestingViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterestingViewModel.swift; sourceTree = "<group>"; };
+		C034B48C2A37A7F600919D2A /* InterestingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterestingViewController.swift; sourceTree = "<group>"; };
+		C034B48E2A37A7F600919D2A /* InterestingMapCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterestingMapCell.swift; sourceTree = "<group>"; };
+		C034B48F2A37A7F600919D2A /* StarCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarCell.swift; sourceTree = "<group>"; };
+		C034B4902A37A7F600919D2A /* NewbieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewbieCell.swift; sourceTree = "<group>"; };
+		C034B4912A37A7F700919D2A /* InterestingStarCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterestingStarCell.swift; sourceTree = "<group>"; };
+		C034B4922A37A7F700919D2A /* InterestingHistoriesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterestingHistoriesCell.swift; sourceTree = "<group>"; };
+		C034B4932A37A7F700919D2A /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		C034B4942A37A7F700919D2A /* InterestingPeopleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterestingPeopleCell.swift; sourceTree = "<group>"; };
+		C034B4952A37A7F700919D2A /* HistoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryCell.swift; sourceTree = "<group>"; };
+		C034B4962A37A7F700919D2A /* InterestingNewbieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterestingNewbieCell.swift; sourceTree = "<group>"; };
+		C034B4AF2A37A81100919D2A /* CustomDashedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomDashedView.swift; sourceTree = "<group>"; };
+		C034B4B12A37A81100919D2A /* LocationSearchTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSearchTable.swift; sourceTree = "<group>"; };
+		C034B4B22A37A81100919D2A /* AddLocationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddLocationViewModel.swift; sourceTree = "<group>"; };
+		C034B4B32A37A81100919D2A /* AddMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMapViewController.swift; sourceTree = "<group>"; };
+		C034B4B52A37A81100919D2A /* AddWishTypeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddWishTypeViewController.swift; sourceTree = "<group>"; };
+		C034B4B62A37A81100919D2A /* AddWishViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddWishViewModel.swift; sourceTree = "<group>"; };
+		C034B4B72A37A81100919D2A /* AddWishView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddWishView.swift; sourceTree = "<group>"; };
+		C034B4B82A37A81100919D2A /* AddWishViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddWishViewController.swift; sourceTree = "<group>"; };
+		C034B4B92A37A81100919D2A /* AddWishCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddWishCoordinator.swift; sourceTree = "<group>"; };
+		C034B4C52A37A86600919D2A /* RoomSettingsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomSettingsViewModel.swift; sourceTree = "<group>"; };
+		C034B4C62A37A86600919D2A /* RoomSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomSettingsViewController.swift; sourceTree = "<group>"; };
+		C034B4C82A37A86600919D2A /* MessageViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewModel.swift; sourceTree = "<group>"; };
+		C034B4C92A37A86600919D2A /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		C034B4CB2A37A86600919D2A /* NewMemberCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewMemberCell.swift; sourceTree = "<group>"; };
+		C034B4CC2A37A86600919D2A /* InfoMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoMessageCell.swift; sourceTree = "<group>"; };
+		C034B4CD2A37A86600919D2A /* CustomTextMessageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextMessageCollectionViewCell.swift; sourceTree = "<group>"; };
+		C034B4CF2A37A86600919D2A /* RoomBannedViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomBannedViewModel.swift; sourceTree = "<group>"; };
+		C034B4D02A37A86600919D2A /* RoomBannedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomBannedViewController.swift; sourceTree = "<group>"; };
+		C034B4D12A37A86600919D2A /* RoomsCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomsCoordinator.swift; sourceTree = "<group>"; };
+		C034B4D32A37A86600919D2A /* RoomsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomsViewModel.swift; sourceTree = "<group>"; };
+		C034B4D52A37A86600919D2A /* RoomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomCell.swift; sourceTree = "<group>"; };
+		C034B4D62A37A86600919D2A /* RoomSettingsHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomSettingsHeaderCell.swift; sourceTree = "<group>"; };
+		C034B4D72A37A86600919D2A /* RoomUserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomUserCell.swift; sourceTree = "<group>"; };
+		C034B4D82A37A86600919D2A /* RoomsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +278,10 @@
 		C034B41E2A37A4B300919D2A /* Flows */ = {
 			isa = PBXGroup;
 			children = (
+				C034B4C32A37A86600919D2A /* Rooms */,
+				C034B4AE2A37A81100919D2A /* Add */,
+				C034B4792A37A7F600919D2A /* Discovery */,
+				C034B45B2A37A7E000919D2A /* Feed */,
 				C034B4562A37A5C300919D2A /* Tabbar */,
 				C034B4282A37A52300919D2A /* Auth */,
 				C034B4212A37A4EE00919D2A /* Initial */,
@@ -267,6 +391,230 @@
 			path = Tabbar;
 			sourceTree = "<group>";
 		};
+		C034B45B2A37A7E000919D2A /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				C034B45C2A37A7E000919D2A /* Home */,
+				C034B4642A37A7E000919D2A /* Search */,
+				C034B4672A37A7E000919D2A /* House */,
+				C034B46B2A37A7E000919D2A /* FeedCoordinator.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		C034B45C2A37A7E000919D2A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C034B45D2A37A7E000919D2A /* TopWishesViewModel.swift */,
+				C034B45E2A37A7E000919D2A /* CityMomentsViewController.swift */,
+				C034B45F2A37A7E000919D2A /* HomeViewModel.swift */,
+				C034B4602A37A7E000919D2A /* CityViewModel.swift */,
+				C034B4612A37A7E000919D2A /* HomeViewController.swift */,
+				C034B4622A37A7E000919D2A /* CityViewController.swift */,
+				C034B4632A37A7E000919D2A /* TopWishesViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C034B4642A37A7E000919D2A /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				C034B4652A37A7E000919D2A /* SearchViewController.swift */,
+				C034B4662A37A7E000919D2A /* SearchViewModel.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		C034B4672A37A7E000919D2A /* House */ = {
+			isa = PBXGroup;
+			children = (
+				C034B4682A37A7E000919D2A /* HouseViewModel.swift */,
+				C034B4692A37A7E000919D2A /* HouseView.swift */,
+				C034B46A2A37A7E000919D2A /* HouseViewController.swift */,
+			);
+			path = House;
+			sourceTree = "<group>";
+		};
+		C034B4792A37A7F600919D2A /* Discovery */ = {
+			isa = PBXGroup;
+			children = (
+				C034B47A2A37A7F600919D2A /* Map */,
+				C034B4812A37A7F600919D2A /* People */,
+				C034B4892A37A7F600919D2A /* InterestingCoordinator.swift */,
+				C034B48A2A37A7F600919D2A /* Main */,
+			);
+			path = Discovery;
+			sourceTree = "<group>";
+		};
+		C034B47A2A37A7F600919D2A /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				C034B47B2A37A7F600919D2A /* MapViewController.swift */,
+				C034B47C2A37A7F600919D2A /* MapViewModel.swift */,
+				C034B47D2A37A7F600919D2A /* Views */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		C034B47D2A37A7F600919D2A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C034B47E2A37A7F600919D2A /* WishAnnotation.swift */,
+				C034B47F2A37A7F600919D2A /* MapViewWishCard.swift */,
+				C034B4802A37A7F600919D2A /* WishMKAnnotationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C034B4812A37A7F600919D2A /* People */ = {
+			isa = PBXGroup;
+			children = (
+				C034B4822A37A7F600919D2A /* PeopleSearchViewModel.swift */,
+				C034B4832A37A7F600919D2A /* PeopleViewModel.swift */,
+				C034B4842A37A7F600919D2A /* PeopleViewController.swift */,
+				C034B4852A37A7F600919D2A /* Views */,
+				C034B4882A37A7F600919D2A /* PeopleSearchViewController.swift */,
+			);
+			path = People;
+			sourceTree = "<group>";
+		};
+		C034B4852A37A7F600919D2A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C034B4862A37A7F600919D2A /* PeopleCell.swift */,
+				C034B4872A37A7F600919D2A /* PeopleSearchCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C034B48A2A37A7F600919D2A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C034B48B2A37A7F600919D2A /* InterestingViewModel.swift */,
+				C034B48C2A37A7F600919D2A /* InterestingViewController.swift */,
+				C034B48D2A37A7F600919D2A /* Views */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C034B48D2A37A7F600919D2A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C034B48E2A37A7F600919D2A /* InterestingMapCell.swift */,
+				C034B48F2A37A7F600919D2A /* StarCell.swift */,
+				C034B4902A37A7F600919D2A /* NewbieCell.swift */,
+				C034B4912A37A7F700919D2A /* InterestingStarCell.swift */,
+				C034B4922A37A7F700919D2A /* InterestingHistoriesCell.swift */,
+				C034B4932A37A7F700919D2A /* UserCell.swift */,
+				C034B4942A37A7F700919D2A /* InterestingPeopleCell.swift */,
+				C034B4952A37A7F700919D2A /* HistoryCell.swift */,
+				C034B4962A37A7F700919D2A /* InterestingNewbieCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C034B4AE2A37A81100919D2A /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				C034B4AF2A37A81100919D2A /* CustomDashedView.swift */,
+				C034B4B02A37A81100919D2A /* Location */,
+				C034B4B42A37A81100919D2A /* Main */,
+				C034B4B92A37A81100919D2A /* AddWishCoordinator.swift */,
+			);
+			path = Add;
+			sourceTree = "<group>";
+		};
+		C034B4B02A37A81100919D2A /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				C034B4B12A37A81100919D2A /* LocationSearchTable.swift */,
+				C034B4B22A37A81100919D2A /* AddLocationViewModel.swift */,
+				C034B4B32A37A81100919D2A /* AddMapViewController.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		C034B4B42A37A81100919D2A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C034B4B52A37A81100919D2A /* AddWishTypeViewController.swift */,
+				C034B4B62A37A81100919D2A /* AddWishViewModel.swift */,
+				C034B4B72A37A81100919D2A /* AddWishView.swift */,
+				C034B4B82A37A81100919D2A /* AddWishViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C034B4C32A37A86600919D2A /* Rooms */ = {
+			isa = PBXGroup;
+			children = (
+				C034B4C42A37A86600919D2A /* Settings */,
+				C034B4C72A37A86600919D2A /* Message */,
+				C034B4CE2A37A86600919D2A /* Banned */,
+				C034B4D12A37A86600919D2A /* RoomsCoordinator.swift */,
+				C034B4D22A37A86600919D2A /* Main */,
+			);
+			path = Rooms;
+			sourceTree = "<group>";
+		};
+		C034B4C42A37A86600919D2A /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				C034B4C52A37A86600919D2A /* RoomSettingsViewModel.swift */,
+				C034B4C62A37A86600919D2A /* RoomSettingsViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		C034B4C72A37A86600919D2A /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				C034B4C82A37A86600919D2A /* MessageViewModel.swift */,
+				C034B4C92A37A86600919D2A /* MessageViewController.swift */,
+				C034B4CA2A37A86600919D2A /* Views */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		C034B4CA2A37A86600919D2A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C034B4CB2A37A86600919D2A /* NewMemberCell.swift */,
+				C034B4CC2A37A86600919D2A /* InfoMessageCell.swift */,
+				C034B4CD2A37A86600919D2A /* CustomTextMessageCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C034B4CE2A37A86600919D2A /* Banned */ = {
+			isa = PBXGroup;
+			children = (
+				C034B4CF2A37A86600919D2A /* RoomBannedViewModel.swift */,
+				C034B4D02A37A86600919D2A /* RoomBannedViewController.swift */,
+			);
+			path = Banned;
+			sourceTree = "<group>";
+		};
+		C034B4D22A37A86600919D2A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C034B4D32A37A86600919D2A /* RoomsViewModel.swift */,
+				C034B4D42A37A86600919D2A /* Views */,
+				C034B4D82A37A86600919D2A /* RoomsViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C034B4D42A37A86600919D2A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C034B4D52A37A86600919D2A /* RoomCell.swift */,
+				C034B4D62A37A86600919D2A /* RoomSettingsHeaderCell.swift */,
+				C034B4D72A37A86600919D2A /* RoomUserCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -338,40 +686,100 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C034B4772A37A7E000919D2A /* HouseViewController.swift in Sources */,
+				C034B49E2A37A7F700919D2A /* PeopleViewController.swift in Sources */,
 				C034B4442A37A58400919D2A /* SignEmailViewController.swift in Sources */,
+				C034B4A62A37A7F700919D2A /* StarCell.swift in Sources */,
+				C034B4AA2A37A7F700919D2A /* UserCell.swift in Sources */,
 				C034B4202A37A4D800919D2A /* AppCoordinator.swift in Sources */,
 				C034B4262A37A50B00919D2A /* InitialViewController.swift in Sources */,
 				C034B3F62A379EFC00919D2A /* AppDelegate.swift in Sources */,
+				C034B4A52A37A7F700919D2A /* InterestingMapCell.swift in Sources */,
 				C034B4182A37A26400919D2A /* Push.swift in Sources */,
+				C034B46D2A37A7E000919D2A /* CityMomentsViewController.swift in Sources */,
+				C034B4BB2A37A81100919D2A /* LocationSearchTable.swift in Sources */,
+				C034B4E32A37A86600919D2A /* RoomsViewModel.swift in Sources */,
+				C034B49C2A37A7F700919D2A /* PeopleSearchViewModel.swift in Sources */,
+				C034B4DB2A37A86600919D2A /* MessageViewModel.swift in Sources */,
+				C034B4E12A37A86600919D2A /* RoomBannedViewController.swift in Sources */,
 				C034B4472A37A58400919D2A /* SignUpViewModel.swift in Sources */,
 				C034B3F82A379EFC00919D2A /* SceneDelegate.swift in Sources */,
 				C034B4462A37A58400919D2A /* SignUpViewController.swift in Sources */,
+				C034B4752A37A7E000919D2A /* HouseViewModel.swift in Sources */,
 				C034B44A2A37A58400919D2A /* VerifyPhoneViewController.swift in Sources */,
+				C034B4A82A37A7F700919D2A /* InterestingStarCell.swift in Sources */,
+				C034B4E72A37A86600919D2A /* RoomsViewController.swift in Sources */,
+				C034B4762A37A7E000919D2A /* HouseView.swift in Sources */,
+				C034B46F2A37A7E000919D2A /* CityViewModel.swift in Sources */,
+				C034B46C2A37A7E000919D2A /* TopWishesViewModel.swift in Sources */,
 				C034B4502A37A58400919D2A /* SignView.swift in Sources */,
 				C034B4172A37A26400919D2A /* Queries.swift in Sources */,
 				C034B42A2A37A55300919D2A /* AuthenticationCoordinator.swift in Sources */,
+				C034B4732A37A7E000919D2A /* SearchViewController.swift in Sources */,
 				C034B44B2A37A58400919D2A /* OnboardingProgressView.swift in Sources */,
+				C034B4BC2A37A81100919D2A /* AddLocationViewModel.swift in Sources */,
+				C034B4DF2A37A86600919D2A /* CustomTextMessageCollectionViewCell.swift in Sources */,
 				C034B41A2A37A26400919D2A /* RealmHelper.swift in Sources */,
 				C034B4522A37A58400919D2A /* SignHeaderView.swift in Sources */,
 				C034B4162A37A26400919D2A /* BatchService.swift in Sources */,
+				C034B4722A37A7E000919D2A /* TopWishesViewController.swift in Sources */,
 				C034B4492A37A58400919D2A /* VerifyPhoneView.swift in Sources */,
+				C034B4DC2A37A86600919D2A /* MessageViewController.swift in Sources */,
+				C034B4DE2A37A86600919D2A /* InfoMessageCell.swift in Sources */,
+				C034B4E02A37A86600919D2A /* RoomBannedViewModel.swift in Sources */,
+				C034B4BF2A37A81100919D2A /* AddWishViewModel.swift in Sources */,
+				C034B4A92A37A7F700919D2A /* InterestingHistoriesCell.swift in Sources */,
+				C034B4BA2A37A81100919D2A /* CustomDashedView.swift in Sources */,
+				C034B4BD2A37A81100919D2A /* AddMapViewController.swift in Sources */,
+				C034B4742A37A7E000919D2A /* SearchViewModel.swift in Sources */,
+				C034B46E2A37A7E000919D2A /* HomeViewModel.swift in Sources */,
 				C034B4512A37A58400919D2A /* SignViewController.swift in Sources */,
 				C034B45A2A37A5C300919D2A /* TabBarController.swift in Sources */,
 				C034B44F2A37A58400919D2A /* SignViewModel.swift in Sources */,
+				C034B4DA2A37A86600919D2A /* RoomSettingsViewController.swift in Sources */,
 				C034B4532A37A58400919D2A /* SignPhoneViewModel.swift in Sources */,
+				C034B4C22A37A81100919D2A /* AddWishCoordinator.swift in Sources */,
+				C034B4AD2A37A7F700919D2A /* InterestingNewbieCell.swift in Sources */,
+				C034B4A12A37A7F700919D2A /* PeopleSearchViewController.swift in Sources */,
+				C034B4A32A37A7F700919D2A /* InterestingViewModel.swift in Sources */,
+				C034B4982A37A7F700919D2A /* MapViewModel.swift in Sources */,
+				C034B49D2A37A7F700919D2A /* PeopleViewModel.swift in Sources */,
+				C034B4E62A37A86600919D2A /* RoomUserCell.swift in Sources */,
 				C034B4542A37A58400919D2A /* SignPhoneView.swift in Sources */,
 				C034B4192A37A26400919D2A /* Ref.swift in Sources */,
+				C034B49A2A37A7F700919D2A /* MapViewWishCard.swift in Sources */,
 				C034B4592A37A5C300919D2A /* TabBarCoordinator.swift in Sources */,
+				C034B49B2A37A7F700919D2A /* WishMKAnnotationView.swift in Sources */,
+				C034B4972A37A7F700919D2A /* MapViewController.swift in Sources */,
 				C034B4272A37A50B00919D2A /* InitialCoordinator.swift in Sources */,
+				C034B4AB2A37A7F700919D2A /* InterestingPeopleCell.swift in Sources */,
+				C034B4A22A37A7F700919D2A /* InterestingCoordinator.swift in Sources */,
+				C034B4992A37A7F700919D2A /* WishAnnotation.swift in Sources */,
+				C034B4E52A37A86600919D2A /* RoomSettingsHeaderCell.swift in Sources */,
+				C034B4712A37A7E000919D2A /* CityViewController.swift in Sources */,
+				C034B4A42A37A7F700919D2A /* InterestingViewController.swift in Sources */,
 				C034B4552A37A58400919D2A /* SignPhoneViewController.swift in Sources */,
+				C034B4C12A37A81100919D2A /* AddWishViewController.swift in Sources */,
+				C034B4C02A37A81100919D2A /* AddWishView.swift in Sources */,
 				C034B41B2A37A26400919D2A /* StorageHelpers.swift in Sources */,
 				C034B41D2A37A26400919D2A /* Database.swift in Sources */,
 				C034B44E2A37A58400919D2A /* OnboardingViewModel.swift in Sources */,
+				C034B4A02A37A7F700919D2A /* PeopleSearchCell.swift in Sources */,
+				C034B4DD2A37A86600919D2A /* NewMemberCell.swift in Sources */,
+				C034B4782A37A7E000919D2A /* FeedCoordinator.swift in Sources */,
+				C034B4E22A37A86600919D2A /* RoomsCoordinator.swift in Sources */,
 				C034B44C2A37A58400919D2A /* OnboardingViewController.swift in Sources */,
 				C034B4482A37A58400919D2A /* SignUpView.swift in Sources */,
+				C034B4702A37A7E000919D2A /* HomeViewController.swift in Sources */,
+				C034B4D92A37A86600919D2A /* RoomSettingsViewModel.swift in Sources */,
+				C034B4A72A37A7F700919D2A /* NewbieCell.swift in Sources */,
+				C034B4AC2A37A7F700919D2A /* HistoryCell.swift in Sources */,
 				C034B44D2A37A58400919D2A /* OnboardingCell.swift in Sources */,
+				C034B4BE2A37A81100919D2A /* AddWishTypeViewController.swift in Sources */,
+				C034B49F2A37A7F700919D2A /* PeopleCell.swift in Sources */,
 				C034B41C2A37A26400919D2A /* DatabaseHelpers.swift in Sources */,
 				C034B4252A37A50B00919D2A /* InitialViewModel.swift in Sources */,
+				C034B4E42A37A86600919D2A /* RoomCell.swift in Sources */,
 				C034B4452A37A58400919D2A /* SignEmailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
