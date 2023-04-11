@@ -240,6 +240,7 @@
 		C034B3F42A379EFC00919D2A /* HB */ = {
 			isa = PBXGroup;
 			children = (
+				C034B4E82A37AAAF00919D2A /* Helpers */,
 				C034B41E2A37A4B300919D2A /* Flows */,
 				C034B40D2A37A24300919D2A /* API */,
 				C034B4092A379F1700919D2A /* Application */,
@@ -613,6 +614,13 @@
 				C034B4D72A37A86600919D2A /* RoomUserCell.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		C034B4E82A37AAAF00919D2A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
