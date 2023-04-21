@@ -1,0 +1,299 @@
+
+// MARK: - General
+"Done" = "Готово";
+"Complete" = "Завершить";
+"Send" = "Отправить";
+"Yes" = "Да";
+"Cancel" = "Отменить";
+"Delete" = "Удалить";
+"Sign in" = "Войти";
+"Sign up" = "Регистрация";
+"Man" = "Мужчина";
+"Woman" = "Женщина";
+"Phone" = "Телефон";
+"or" = "или";
+"Male" = "Мужчина";
+"Female" = "Женщина";
+"More" = "Подробнее";
+
+// MARK: - Alert
+"Fill in all fields" = "Заполните все поля";
+"The username isn't available" = "Имя пользователя недоступно";
+"Pick photo" = "Выберите фото";
+"Fill E-mail" = "Заполните почту";
+"Fill password" = "Заполните пароль";
+"Saved" = "Сохранено";
+"Photo updated" = "Авартарка обновлена";
+
+
+// MARK: - ImagePicker
+"Add media" = "Добавьте медиа";
+"From one of the options" = "Выберите вариант";
+
+
+// MARK: - Walkthrough
+"Skip" = "Пропустить";
+// Titles
+"Social network of wishes" = "Социальная сеть желаний";
+"Story of your wish" = "История вашего желания";
+"Wishes nearby" = "Желания рядом";
+"Groups of wishes" = "Групповые желания";
+// Descriptions
+"Share your wishes with the world" = "Поделись своими желаниями с миром";
+"Capture moments of fullfillment of your wish" = "Запечатли моменты исполнения своего желания";
+"What do people want here and now" = "Чего люди хотят здесь и сейчас";
+"Unite and implement together" = "Объединяйтесь и осуществляйте вместе";
+"5 minutes ago" = "5 минут назад";
+"Want to visit Furmanov peak with amazing comapny" = "Хочу сходить с веселой компанией на пик Фурманова";
+
+
+
+// MARK: - Sign
+"Sign in to Wanty" = "Войти в Hobby-Buddy";
+"Sign up to Wanty" = "Регистрация в Hobby-Buddy";
+"Social network of wishes find like-minded people" = "Социальная сеть желаний находи единомышленников";
+"E-mail" = "Почта";
+"Phone number" = "Номер телефона";
+"Google" = "Google";
+"Facebook" = "Facebook";
+"Twitter" = "Twitter";
+"Apple" = "Apple";
+"Don't have an account?" = "Еще нет аккаунта?";
+"Already have an account?" = "Уже есть аккаунт?";
+"I agree with \n" = "Я прочитал и согласен с\n";
+"Terms" = "Условиями";
+" and " = " и ";
+"Data Policy" = "Политикой использования данных";
+
+
+// MARK: - Sign Additional
+"E-mail or username" = "Почта или имя профиля";
+"Username" = "Имя пользователя";
+"Password" = "Пароль";
+"Forgot your password?" = "Забыли пароль?";
+"Create an account" = "Создать аккаунт";
+
+
+// MARK: - Sign Phone
+"Enter phone number" = "Напишите номер телефона";
+"Your phone number" = "Ваш номер телефона";
+"SMS-code" = "СМС-код";
+"Change" = "Изменить";
+"Recieve code" = "Получить код";
+"Enter verification code" = "Введите код подтверждение";
+"We will send verification code on phone number" = "Мы отправим вам код подтверждение на номер";
+"Continue" = "Далее";
+
+// MARK: - Sign up final
+"Final touches" = "Последние штрихи";
+"For a better user experience" = "Для лучшего пользовательского опыта";
+"Date of birth" = "День рождения";
+"Select your Date of birth" = "Выберите ваше день рождения";
+
+
+// MARK: - Forgot password
+"Restore Access" = "Восстановить доступ";
+"Put your mail below and you will receive a link to restore" = "Введите почту и вы получите ссылку на восстановление";
+"Restore password" = "Восстановить пароль";
+"The link has been sent" = "Ссылка отправлена";
+
+
+// MARK: - Tabbar
+"Feed" = "Лента";
+"Interesting" = "Интересное";
+"Add" = "Добавить";
+"Messages" = "Сообщения";
+"Profile" = "Профиль";
+
+// Interesting
+"Wishes nearby" = "Хобби рядом";
+"Your city" = "Ваш город";
+"People" = "Люди";
+"History" = "Истории";
+"Nearby" = "Рядом";
+"Show wishes nearby" = "Показать хобби рядом";
+"Show other" = "Показать другие";
+"No wishes in your city" = "В вашем городе нет хобби";
+"Popular histories" = "Популярные истории";
+"Top new users" = "Топ новых пользователей";
+"Top active new users" = "Топ новых активных пользователей";
+"What are we looking for?" = "Что будем искать?";
+"We didn't find" = "Мы не нашли ничего по запросу:";
+
+// Add wish
+"New wish" = "Новое хобби";
+"What do you want?" = "Чего желаете?";
+"Add description" = "Добавьте описание";
+"Add description mini" = "Описание";
+"not necessary" = "необязательно";
+"Wish has been added successfully" = "хобби успешно добавлено";
+"Group" = "Группа";
+"Tet-a-tet" = "Тет-а-тет";
+"Group has been created successfully" = "Группа успешно создана";
+
+// Wish
+"Wish" = "Хобби";
+"completed" = "завершено";
+"active" = "активно";
+"Wish has been created" = "Хобби создано";
+"Your request to wish" = "Ваш запрос на хобби";
+"Participate" = "Участвовать";
+"Fulfill" = "Исполнить";
+"Requested" = "Запрошено";
+"Wish completed" = "Хобби завершено";
+"Group chat" = "Групповой чат";
+"Private chat" = "Личный чат";
+"Request has been sent successfully" = "Запрос успешно отправлен";
+"You have already sent request. Wait for notification." = "Вы уже отправили запрос. Ожидайте уведомления.";
+"History of this wish" = "История этого хобби";
+"Stories at will" = "Истории по хобби";
+"Stories title full" = "дальше...";
+"Completion date" = "Дата завершения";
+"Create connects" = "Создать коннекты";
+"Wish completion" = "Завершение хобби";
+"Connects Created" = "Коннекты созданы";
+"Complete wish" = "Завершить хобби";
+"Connects" = "Коннекты";
+"%@ connects" = "%@ коннектов";
+"User does not created any connects yet. Complete wish with %@ and you will display here" = "У пользователя еще нет коннектов. Выполните хобби с %@ и вы отобразитесь здесь";
+
+// Add history
+"New history" = "Новая история";
+"final history" = "завершающая история";
+"History has been added successfully" = "История успешно добавлена";
+"You must add least one photo" = "Вы должны добавить минимум одну фотографию";
+
+// Requests
+"Requests" = "Запросы";
+"Requests on a wish" = "Запросы на хобби";
+"There are no requests on this wish yet" = "По данному хобби еще нет запросов";
+"Confirm request" = "Подтвердите заявку";
+"After confirmation" = "При подтверждении,";
+"will be added to group chat" = "добавится в групповой чат";
+"private chat will be opened with" = "у вас откроется личный чат с";
+"Confirmation completed" = "Подтверждение принято";
+"Reject the request?" = "Отклонить заявку?";
+"You will be able to communicate with %@ in a private chat after confirmation" = "После подтверждения, вы сможете общаться с %@ в личном чате";
+"%@ will be added to the group chat after confirmation" = "После подтверждения, %@ добавится в групповой чат";
+"will not know that you rejected the request" = "не узнает, что вы отклонили заявку";
+"Rejection completed" = "Участнику отказано";
+"has been added" = "добавлен(-а)";
+"Chat was created" = "Чат создан";
+"%@ confirmed" = "%@ подтвержден";
+"You can go to a private chat with %@ or watch other requests for your wish" = "Вы можете перейти в личный чат с %@ или смотреть другие заявки на ваше хобби";
+"Other requests" = "Другие заявки";
+"You can go to the group chat or watch other requests for your wish" = "Вы можете перейти в групповой чат или смотреть другие заявки на ваше хобби";
+
+// Request modal
+"Introduce yourself" = "Представьте себя";
+"Optional field" = "Необязательное поле";
+
+// Messages
+"Chats" = "Чаты";
+"Chat" = "Чат";
+"Notifications" = "Уведомления";
+"BlackList" = "Черный список";
+"Group chat of wish" = "Групповой чат по хобби";
+"Chat of wish" = "Личный чат по хобби";
+"participants" = "участников";
+"online" = "онлайн";
+"offline" = "оффлайн";
+"Write a message..." = "Написать сообщение...";
+"Member" = "Участник группы";
+"NewMember" = "Встречайте нового участника! 🎉";
+
+// Follow
+"Followers" = "Подписчики";
+"Followings" = "Подписки";
+
+// Profile
+"Wishes" = "хобби";
+"Settings" = "Настройки";
+"Information" = "Информация";
+"Log out" = "Выйти";
+"Edit profile" = "Редактирование профиля";
+"Follow" = "Подписаться";
+"Following" = "Вы подписаны";
+"Edit" = "Редактировать";
+
+// Edit Profile
+"Name" = "Имя";
+"Bio" = "О себе";
+"Additional" = "Дополнительное";
+"Birthday" = "День рождения";
+"Gender" = "Пол";
+
+// Permission
+"Oops.. access is needed" = "Упс.. нужен доступ";
+"Please, go to Settings and allow permission." = "Перейдите в Настройки и дайте разрешение.";
+"PERMISSIONS REQUESTS" = "Нужно дать";
+"Need Permission" = "Разрешение";
+"Permissions are necessary for the application to work and perform correctly. Push are not required permissions." = "Разрешения необходимы для правильной работы приложения. Разрешения на уведомления необязательно.";
+"Allow" = "Дать";
+"Allowed" = "Дано";
+
+// Permission types
+"Camera" = "Камера";
+"Allow app for use camera" = "Доступ к использованию камеры";
+"Photo Library" = "Галерея";
+"Access for save photos in your gallery" = "Доступ для сохранения фотографий в вашей галерее";
+"Location When Use" = "Геопозиция при использовании";
+"Allow to access your location" = "Доступ к вашей геолокации";
+
+
+// MARK: - LOCAL STRING
+// ERROR
+// Feed
+"Welcome to Wanty" = "Добро пожаловать в Hobby-Buddy";
+"Follow people to see their wishes here" = "Подпишитесь на людей, чтобы видеть их хобби здесь";
+"Find friends" = "Найти друзей";
+
+// Chats
+"Your chats" = "Ваши чаты";
+"All your chats of your wishes and in which you participate will be here" = "Здесь будут все ваши чаты по вашим хобби и в которых вы участвуете";
+"left chat" = "покинул(-a) чат";
+
+// Placeholder
+"Welcome to Wanty!" = "Добро пожаловать в Hobby-Buddy!";
+"Start following users to see their wishes in Feed" = "Начните подписываться на людей, чтобы увидеть их хобби здесь";
+"Find friends" = "Найти друзей";
+"Build connects by completing wishes with other users" = "Набирайте коннекты, выполняя хобби с другими пользователями";
+
+// Requests
+"You don't have any requests for this wish yet" = "У вас пока нет запросов на это хобби";
+"Wait for people to respond to your wish" = "Ждите, когда люди откликнуться на ваше хобби";
+
+// Notifications
+"Activities" = "Что нового";
+"Here you will be notified of new followers and new requests to participate in your wishes" = "Здесь будут уведомления о новых подписчиках и новых запросах на участие в ваших хобби";
+
+// My Active
+"Active wishes" = "Активные хобби";
+"Your active wishes will be displayed here" = "Здесь будут отображаться ваши активные хобби";
+"Create a wish" = "Создать хобби";
+
+// My Complete
+"Completed wishes" = "Завершенные хобби";
+"Your completed wishes will be displayed here" = "Здесь будут отображаться ваши завершенные хобби";
+
+// My Participant
+"Participating wishes" = "Где я участвую";
+"Wishes where you participate will be displayed here" = "Здесь будут отображаться хобби, где вы участвуете";
+
+// Other Active
+"No active wishes yet" = "Пока нет активных хобби";
+
+// Other Complete
+"No completed wishes yet" = "Пока нет завершенных хобби";
+
+// Other Participant
+"No wishes where %@ participates yet" = "Пока нет хобби, где %@ участвует";
+"Wishes where %@ participate" = "хобби где %@ участвует";
+// Single Wish Chats
+"You don't have any chats for this wish yet" = "У вас пока нет чатов по этому хобби";
+"Approve requests from people and one-on-one chats will appear here" = "Одобрите запросы от людей и здесь появятся тет-а-тет чаты";
+
+
+
+// MARK: - CHAT
+"author of the wish" = "автор хобби";

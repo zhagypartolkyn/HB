@@ -1,0 +1,7 @@
+
+"NSBluetoothAlwaysUsageDescription" = "Turn on bluetooth services to find hobbies around you";
+"NSBluetoothPeripheralUsageDescription" = "Turn on bluetooth services to find Hobby-Buddy around you";
+"NSLocationWhenInUseUsageDescription" = "Turn on location services to find Hobby-Buddy around you";
+"NSMicrophoneUsageDescription" = "Enable Hobby-Buddy to access your mircrophone to video record";
+"NSCameraUsageDescription" = "Разрешите приложению Hobby-Buddy доступ к вашей камере, чтобы делать снимки и сохранять в качестве фото профиля, желания или моменты";
+"NSPhotoLibraryUsageDescription" = "Разрешите приложению Hobby-Buddy доступ к вашей фотопленке, чтобы загружать ваши фотографии и сохранять фото профиля, желания или моменты";
