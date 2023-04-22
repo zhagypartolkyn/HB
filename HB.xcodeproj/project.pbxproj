@@ -201,6 +201,31 @@
 		C034B69E2A37B2FF00919D2A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C034B6962A37B2FF00919D2A /* InfoPlist.strings */; };
 		C034B69F2A37B2FF00919D2A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C034B6992A37B2FF00919D2A /* Localizable.strings */; };
 		C034B6A02A37B2FF00919D2A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C034B69B2A37B2FF00919D2A /* InfoPlist.strings */; };
+		C034B6BB2A37B51200919D2A /* Connects.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B6A22A37B51100919D2A /* Connects.swift */; };
+		C034B6BC2A37B51200919D2A /* Connect.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B6A32A37B51100919D2A /* Connect.swift */; };
+		C034B6BD2A37B51200919D2A /* WishViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B6A42A37B51100919D2A /* WishViewModel.swift */; };
+		C034B6BE2A37B51200919D2A /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B6A52A37B51100919D2A /* Onboarding.swift */; };
+		C034B6BF2A37B51200919D2A /* Annotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B6A62A37B51100919D2A /* Annotation.swift */; };
+		C034B6C02A37B51200919D2A /* RoomNotify.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B6A72A37B51100919D2A /* RoomNotify.swift */; };
+		C034B6C12A37B51200919D2A /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B6A82A37B51100919D2A /* Message.swift */; };
+		C034B6C22A37B51200919D2A /* RoomViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B6A92A37B51100919D2A /* RoomViewModel.swift */; };
+		C034B6C32A37B51200919D2A /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B6AA2A37B51100919D2A /* HistoryViewModel.swift */; };
+		C034B6C42A37B51200919D2A /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B6AB2A37B51100919D2A /* Activity.swift */; };
+		C034B6C52A37B51200919D2A /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B6AC2A37B51100919D2A /* Request.swift */; };
+		C034B6C62A37B51200919D2A /* PushData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B6AD2A37B51100919D2A /* PushData.swift */; };
+		C034B6C72A37B51200919D2A /* RoomUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B6AE2A37B51100919D2A /* RoomUserViewModel.swift */; };
+		C034B6C82A37B51200919D2A /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B6AF2A37B51100919D2A /* History.swift */; };
+		C034B6C92A37B51200919D2A /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B6B02A37B51100919D2A /* UserViewModel.swift */; };
+		C034B6CA2A37B51200919D2A /* ActivityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B6B12A37B51100919D2A /* ActivityViewModel.swift */; };
+		C034B6CB2A37B51200919D2A /* BlockedUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B6B22A37B51100919D2A /* BlockedUser.swift */; };
+		C034B6CC2A37B51200919D2A /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B6B32A37B51100919D2A /* Room.swift */; };
+		C034B6CD2A37B51200919D2A /* UserJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B6B42A37B51100919D2A /* UserJson.swift */; };
+		C034B6CE2A37B51200919D2A /* Vote.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B6B52A37B51100919D2A /* Vote.swift */; };
+		C034B6CF2A37B51200919D2A /* RandomWish.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B6B62A37B51100919D2A /* RandomWish.swift */; };
+		C034B6D02A37B51200919D2A /* WishSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B6B72A37B51100919D2A /* WishSearch.swift */; };
+		C034B6D12A37B51200919D2A /* Wish.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B6B82A37B51200919D2A /* Wish.swift */; };
+		C034B6D22A37B51200919D2A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B6B92A37B51200919D2A /* User.swift */; };
+		C034B6D32A37B51200919D2A /* Report.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B6BA2A37B51200919D2A /* Report.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -400,6 +425,31 @@
 		C034B6972A37B2FF00919D2A /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = InfoPlist.strings; sourceTree = "<group>"; };
 		C034B69A2A37B2FF00919D2A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
 		C034B69C2A37B2FF00919D2A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		C034B6A22A37B51100919D2A /* Connects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connects.swift; sourceTree = "<group>"; };
+		C034B6A32A37B51100919D2A /* Connect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connect.swift; sourceTree = "<group>"; };
+		C034B6A42A37B51100919D2A /* WishViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WishViewModel.swift; sourceTree = "<group>"; };
+		C034B6A52A37B51100919D2A /* Onboarding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		C034B6A62A37B51100919D2A /* Annotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Annotation.swift; sourceTree = "<group>"; };
+		C034B6A72A37B51100919D2A /* RoomNotify.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomNotify.swift; sourceTree = "<group>"; };
+		C034B6A82A37B51100919D2A /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		C034B6A92A37B51100919D2A /* RoomViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomViewModel.swift; sourceTree = "<group>"; };
+		C034B6AA2A37B51100919D2A /* HistoryViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewModel.swift; sourceTree = "<group>"; };
+		C034B6AB2A37B51100919D2A /* Activity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		C034B6AC2A37B51100919D2A /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		C034B6AD2A37B51100919D2A /* PushData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushData.swift; sourceTree = "<group>"; };
+		C034B6AE2A37B51100919D2A /* RoomUserViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomUserViewModel.swift; sourceTree = "<group>"; };
+		C034B6AF2A37B51100919D2A /* History.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		C034B6B02A37B51100919D2A /* UserViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		C034B6B12A37B51100919D2A /* ActivityViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityViewModel.swift; sourceTree = "<group>"; };
+		C034B6B22A37B51100919D2A /* BlockedUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockedUser.swift; sourceTree = "<group>"; };
+		C034B6B32A37B51100919D2A /* Room.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		C034B6B42A37B51100919D2A /* UserJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserJson.swift; sourceTree = "<group>"; };
+		C034B6B52A37B51100919D2A /* Vote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vote.swift; sourceTree = "<group>"; };
+		C034B6B62A37B51100919D2A /* RandomWish.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomWish.swift; sourceTree = "<group>"; };
+		C034B6B72A37B51100919D2A /* WishSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WishSearch.swift; sourceTree = "<group>"; };
+		C034B6B82A37B51200919D2A /* Wish.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wish.swift; sourceTree = "<group>"; };
+		C034B6B92A37B51200919D2A /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C034B6BA2A37B51200919D2A /* Report.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Report.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -432,6 +482,7 @@
 		C034B3F42A379EFC00919D2A /* HB */ = {
 			isa = PBXGroup;
 			children = (
+				C034B6A12A37B4EF00919D2A /* Models */,
 				C034B4E82A37AAAF00919D2A /* Helpers */,
 				C034B41E2A37A4B300919D2A /* Flows */,
 				C034B40D2A37A24300919D2A /* API */,
@@ -1151,6 +1202,38 @@
 			path = en.lproj;
 			sourceTree = "<group>";
 		};
+		C034B6A12A37B4EF00919D2A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C034B6AB2A37B51100919D2A /* Activity.swift */,
+				C034B6B12A37B51100919D2A /* ActivityViewModel.swift */,
+				C034B6A62A37B51100919D2A /* Annotation.swift */,
+				C034B6B22A37B51100919D2A /* BlockedUser.swift */,
+				C034B6A32A37B51100919D2A /* Connect.swift */,
+				C034B6A22A37B51100919D2A /* Connects.swift */,
+				C034B6AF2A37B51100919D2A /* History.swift */,
+				C034B6AA2A37B51100919D2A /* HistoryViewModel.swift */,
+				C034B6A82A37B51100919D2A /* Message.swift */,
+				C034B6A52A37B51100919D2A /* Onboarding.swift */,
+				C034B6AD2A37B51100919D2A /* PushData.swift */,
+				C034B6B62A37B51100919D2A /* RandomWish.swift */,
+				C034B6BA2A37B51200919D2A /* Report.swift */,
+				C034B6AC2A37B51100919D2A /* Request.swift */,
+				C034B6B32A37B51100919D2A /* Room.swift */,
+				C034B6A72A37B51100919D2A /* RoomNotify.swift */,
+				C034B6AE2A37B51100919D2A /* RoomUserViewModel.swift */,
+				C034B6A92A37B51100919D2A /* RoomViewModel.swift */,
+				C034B6B92A37B51200919D2A /* User.swift */,
+				C034B6B42A37B51100919D2A /* UserJson.swift */,
+				C034B6B02A37B51100919D2A /* UserViewModel.swift */,
+				C034B6B52A37B51100919D2A /* Vote.swift */,
+				C034B6B82A37B51200919D2A /* Wish.swift */,
+				C034B6B72A37B51100919D2A /* WishSearch.swift */,
+				C034B6A42A37B51100919D2A /* WishViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1234,6 +1317,7 @@
 				C034B4772A37A7E000919D2A /* HouseViewController.swift in Sources */,
 				C034B68D2A37B27100919D2A /* GenericTableViewController.swift in Sources */,
 				C034B66A2A37B1E200919D2A /* PullToRefresh.swift in Sources */,
+				C034B6CE2A37B51200919D2A /* Vote.swift in Sources */,
 				C034B49E2A37A7F700919D2A /* PeopleViewController.swift in Sources */,
 				C034B63F2A37B0F100919D2A /* UILabelFactory.swift in Sources */,
 				C034B4442A37A58400919D2A /* SignEmailViewController.swift in Sources */,
@@ -1265,10 +1349,12 @@
 				C034B49C2A37A7F700919D2A /* PeopleSearchViewModel.swift in Sources */,
 				C034B5FC2A37B0E400919D2A /* CameraHistoryViewController.swift in Sources */,
 				C034B4DB2A37A86600919D2A /* MessageViewModel.swift in Sources */,
+				C034B6D02A37B51200919D2A /* WishSearch.swift in Sources */,
 				C034B6402A37B0F100919D2A /* UIViewFactory.swift in Sources */,
 				C034B4E12A37A86600919D2A /* RoomBannedViewController.swift in Sources */,
 				C034B6242A37B0E400919D2A /* ProfileConnectsViewController.swift in Sources */,
 				C034B4472A37A58400919D2A /* SignUpViewModel.swift in Sources */,
+				C034B6BB2A37B51200919D2A /* Connects.swift in Sources */,
 				C034B61C2A37B0E400919D2A /* SettingsViewModel.swift in Sources */,
 				C034B61B2A37B0E400919D2A /* SettingsView.swift in Sources */,
 				C034B3F82A379EFC00919D2A /* SceneDelegate.swift in Sources */,
@@ -1279,10 +1365,13 @@
 				C034B44A2A37A58400919D2A /* VerifyPhoneViewController.swift in Sources */,
 				C034B60D2A37B0E400919D2A /* RequestsViewController.swift in Sources */,
 				C034B4A82A37A7F700919D2A /* InterestingStarCell.swift in Sources */,
+				C034B6C92A37B51200919D2A /* UserViewModel.swift in Sources */,
 				C034B6442A37B0F100919D2A /* UIPageControlFactory.swift in Sources */,
 				C034B66C2A37B1E200919D2A /* RefreshableScrollView.swift in Sources */,
+				C034B6C32A37B51200919D2A /* HistoryViewModel.swift in Sources */,
 				C034B4E72A37A86600919D2A /* RoomsViewController.swift in Sources */,
 				C034B61D2A37B0E400919D2A /* SettingsViewController.swift in Sources */,
+				C034B6C72A37B51200919D2A /* RoomUserViewModel.swift in Sources */,
 				C034B6662A37B1E200919D2A /* EmptyErrorView.swift in Sources */,
 				C034B6022A37B0E400919D2A /* WishDetailViewModel.swift in Sources */,
 				C034B68B2A37B27100919D2A /* Fonts.swift in Sources */,
@@ -1296,7 +1385,9 @@
 				C034B4172A37A26400919D2A /* Queries.swift in Sources */,
 				C034B42A2A37A55300919D2A /* AuthenticationCoordinator.swift in Sources */,
 				C034B6622A37B1E200919D2A /* FormRowStaticView.swift in Sources */,
+				C034B6BF2A37B51200919D2A /* Annotation.swift in Sources */,
 				C034B6892A37B27100919D2A /* LocalizedText.swift in Sources */,
+				C034B6CB2A37B51200919D2A /* BlockedUser.swift in Sources */,
 				C034B68C2A37B27100919D2A /* Icons.swift in Sources */,
 				C034B4732A37A7E000919D2A /* SearchViewController.swift in Sources */,
 				C034B6682A37B1E200919D2A /* AvatarCircle.swift in Sources */,
@@ -1310,6 +1401,7 @@
 				C034B4162A37A26400919D2A /* BatchService.swift in Sources */,
 				C034B4722A37A7E000919D2A /* TopWishesViewController.swift in Sources */,
 				C034B4492A37A58400919D2A /* VerifyPhoneView.swift in Sources */,
+				C034B6C62A37B51200919D2A /* PushData.swift in Sources */,
 				C034B4DC2A37A86600919D2A /* MessageViewController.swift in Sources */,
 				C034B4DE2A37A86600919D2A /* InfoMessageCell.swift in Sources */,
 				C034B6202A37B0E400919D2A /* FollowViewController.swift in Sources */,
@@ -1319,12 +1411,16 @@
 				C034B66D2A37B1E200919D2A /* PlaceholderWebImage.swift in Sources */,
 				C034B6122A37B0E400919D2A /* EmailViewController.swift in Sources */,
 				C034B4BA2A37A81100919D2A /* CustomDashedView.swift in Sources */,
+				C034B6BE2A37B51200919D2A /* Onboarding.swift in Sources */,
 				C034B6162A37B0E400919D2A /* MediaViewController.swift in Sources */,
 				C034B6672A37B1E200919D2A /* HomeTabBar.swift in Sources */,
+				C034B6CF2A37B51200919D2A /* RandomWish.swift in Sources */,
 				C034B5FD2A37B0E400919D2A /* ImagePickerViewController.swift in Sources */,
 				C034B4BD2A37A81100919D2A /* AddMapViewController.swift in Sources */,
 				C034B5FE2A37B0E400919D2A /* WishCompleteCell.swift in Sources */,
+				C034B6C22A37B51200919D2A /* RoomViewModel.swift in Sources */,
 				C034B6262A37B0E400919D2A /* ConnectTableViewCell.swift in Sources */,
+				C034B6C12A37B51200919D2A /* Message.swift in Sources */,
 				C034B66E2A37B1E200919D2A /* ActivityCard.swift in Sources */,
 				C034B4742A37A7E000919D2A /* SearchViewModel.swift in Sources */,
 				C034B46E2A37A7E000919D2A /* HomeViewModel.swift in Sources */,
@@ -1336,6 +1432,7 @@
 				C034B4532A37A58400919D2A /* SignPhoneViewModel.swift in Sources */,
 				C034B68A2A37B27100919D2A /* Colors.swift in Sources */,
 				C034B4C22A37A81100919D2A /* AddWishCoordinator.swift in Sources */,
+				C034B6C82A37B51200919D2A /* History.swift in Sources */,
 				C034B4AD2A37A7F700919D2A /* InterestingNewbieCell.swift in Sources */,
 				C034B6692A37B1E200919D2A /* WishCard.swift in Sources */,
 				C034B4A12A37A7F700919D2A /* PeopleSearchViewController.swift in Sources */,
@@ -1343,14 +1440,18 @@
 				C034B4A32A37A7F700919D2A /* InterestingViewModel.swift in Sources */,
 				C034B4982A37A7F700919D2A /* MapViewModel.swift in Sources */,
 				C034B6112A37B0E400919D2A /* SharedCoordinatorProtocol.swift in Sources */,
+				C034B6D12A37B51200919D2A /* Wish.swift in Sources */,
 				C034B6152A37B0E400919D2A /* ReportView.swift in Sources */,
 				C034B49D2A37A7F700919D2A /* PeopleViewModel.swift in Sources */,
+				C034B6BD2A37B51200919D2A /* WishViewModel.swift in Sources */,
 				C034B4E62A37A86600919D2A /* RoomUserCell.swift in Sources */,
 				C034B62C2A37B0E400919D2A /* ProfileViewModel.swift in Sources */,
 				C034B4542A37A58400919D2A /* SignPhoneView.swift in Sources */,
 				C034B4192A37A26400919D2A /* Ref.swift in Sources */,
 				C034B49A2A37A7F700919D2A /* MapViewWishCard.swift in Sources */,
+				C034B6D32A37B51200919D2A /* Report.swift in Sources */,
 				C034B4592A37A5C300919D2A /* TabBarCoordinator.swift in Sources */,
+				C034B6C02A37B51200919D2A /* RoomNotify.swift in Sources */,
 				C034B49B2A37A7F700919D2A /* WishMKAnnotationView.swift in Sources */,
 				C034B4972A37A7F700919D2A /* MapViewController.swift in Sources */,
 				C034B4272A37A50B00919D2A /* InitialCoordinator.swift in Sources */,
@@ -1376,18 +1477,22 @@
 				C034B60A2A37B0E400919D2A /* RequestModalView.swift in Sources */,
 				C034B41B2A37A26400919D2A /* StorageHelpers.swift in Sources */,
 				C034B65F2A37B1E200919D2A /* LogoTitleView.swift in Sources */,
+				C034B6D22A37B51200919D2A /* User.swift in Sources */,
 				C034B60E2A37B0E400919D2A /* FullHistoryViewModel.swift in Sources */,
 				C034B41D2A37A26400919D2A /* Database.swift in Sources */,
+				C034B6CD2A37B51200919D2A /* UserJson.swift in Sources */,
 				C034B6252A37B0E400919D2A /* ProfileConnectsViewModel.swift in Sources */,
 				C034B6142A37B0E400919D2A /* ReportViewController.swift in Sources */,
 				C034B6882A37B27100919D2A /* jsonviewcontroller.swift in Sources */,
 				C034B6642A37B1E200919D2A /* FormRowButtonView.swift in Sources */,
 				C034B6452A37B0F100919D2A /* UIStackViewFactory.swift in Sources */,
+				C034B6CC2A37B51200919D2A /* Room.swift in Sources */,
 				C034B6272A37B0E400919D2A /* ProfileViewController.swift in Sources */,
 				C034B6462A37B0F100919D2A /* UIButtonFactory.swift in Sources */,
 				C034B44E2A37A58400919D2A /* OnboardingViewModel.swift in Sources */,
 				C034B4A02A37A7F700919D2A /* PeopleSearchCell.swift in Sources */,
 				C034B4DD2A37A86600919D2A /* NewMemberCell.swift in Sources */,
+				C034B6C52A37B51200919D2A /* Request.swift in Sources */,
 				C034B4782A37A7E000919D2A /* FeedCoordinator.swift in Sources */,
 				C034B6232A37B0E400919D2A /* ActivitiesViewController.swift in Sources */,
 				C034B6042A37B0E400919D2A /* WishScreenViewController.swift in Sources */,
@@ -1398,6 +1503,7 @@
 				C034B6212A37B0E400919D2A /* ActivitiesView.swift in Sources */,
 				C034B4482A37A58400919D2A /* SignUpView.swift in Sources */,
 				C034B6012A37B0E400919D2A /* FullWishViewController.swift in Sources */,
+				C034B6CA2A37B51200919D2A /* ActivityViewModel.swift in Sources */,
 				C034B4702A37A7E000919D2A /* HomeViewController.swift in Sources */,
 				C034B4D92A37A86600919D2A /* RoomSettingsViewModel.swift in Sources */,
 				C034B61A2A37B0E400919D2A /* EditProfileViewModel.swift in Sources */,
@@ -1405,10 +1511,12 @@
 				C034B4AC2A37A7F700919D2A /* HistoryCell.swift in Sources */,
 				C034B44D2A37A58400919D2A /* OnboardingCell.swift in Sources */,
 				C034B60C2A37B0E400919D2A /* RequestCell.swift in Sources */,
+				C034B6BC2A37B51200919D2A /* Connect.swift in Sources */,
 				C034B4BE2A37A81100919D2A /* AddWishTypeViewController.swift in Sources */,
 				C034B49F2A37A7F700919D2A /* PeopleCell.swift in Sources */,
 				C034B41C2A37A26400919D2A /* DatabaseHelpers.swift in Sources */,
 				C034B6602A37B1E200919D2A /* WishFixedView.swift in Sources */,
+				C034B6C42A37B51200919D2A /* Activity.swift in Sources */,
 				C034B4252A37A50B00919D2A /* InitialViewModel.swift in Sources */,
 				C034B4E42A37A86600919D2A /* RoomCell.swift in Sources */,
 				C034B4452A37A58400919D2A /* SignEmailView.swift in Sources */,
