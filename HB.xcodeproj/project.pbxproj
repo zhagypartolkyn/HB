@@ -226,6 +226,9 @@
 		C034B6D12A37B51200919D2A /* Wish.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B6B82A37B51200919D2A /* Wish.swift */; };
 		C034B6D22A37B51200919D2A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B6B92A37B51200919D2A /* User.swift */; };
 		C034B6D32A37B51200919D2A /* Report.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034B6BA2A37B51200919D2A /* Report.swift */; };
+		C034B6D62A37C57400919D2A /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = C034B6D52A37C57400919D2A /* Realm */; };
+		C034B6D82A37C57400919D2A /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C034B6D72A37C57400919D2A /* RealmSwift */; };
+		C034B6DB2A37C5A200919D2A /* SwiftUIX in Frameworks */ = {isa = PBXBuildFile; productRef = C034B6DA2A37C5A200919D2A /* SwiftUIX */; };
 		E588B58C3ADE80F8FB6ECFED /* Pods_HB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B1FF8E4CE29D3EAA4744F2 /* Pods_HB.framework */; };
 /* End PBXBuildFile section */
 
@@ -461,7 +464,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C034B6D82A37C57400919D2A /* RealmSwift in Frameworks */,
+				C034B6D62A37C57400919D2A /* Realm in Frameworks */,
 				E588B58C3ADE80F8FB6ECFED /* Pods_HB.framework in Frameworks */,
+				C034B6DB2A37C5A200919D2A /* SwiftUIX in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,7 +480,6 @@
 				7179890A444B37797A826B16 /* Pods-HB.debug.xcconfig */,
 				1013DBDCFC9A0EAC4353580E /* Pods-HB.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -1278,6 +1283,11 @@
 			dependencies = (
 			);
 			name = HB;
+			packageProductDependencies = (
+				C034B6D52A37C57400919D2A /* Realm */,
+				C034B6D72A37C57400919D2A /* RealmSwift */,
+				C034B6DA2A37C5A200919D2A /* SwiftUIX */,
+			);
 			productName = HB;
 			productReference = C034B3F22A379EFC00919D2A /* HB.app */;
 			productType = "com.apple.product-type.application";
@@ -1307,6 +1317,10 @@
 				ru,
 			);
 			mainGroup = C034B3E92A379EFC00919D2A;
+			packageReferences = (
+				C034B6D42A37C57400919D2A /* XCRemoteSwiftPackageReference "realm-swift" */,
+				C034B6D92A37C5A200919D2A /* XCRemoteSwiftPackageReference "SwiftUIX" */,
+			);
 			productRefGroup = C034B3F32A379EFC00919D2A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -1788,6 +1802,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4X9R6V68CT;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HB/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -1795,6 +1810,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1816,6 +1832,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4X9R6V68CT;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HB/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -1823,6 +1840,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1858,6 +1876,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C034B6D42A37C57400919D2A /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		C034B6D92A37C5A200919D2A /* XCRemoteSwiftPackageReference "SwiftUIX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftUIX/SwiftUIX.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C034B6D52A37C57400919D2A /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C034B6D42A37C57400919D2A /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		C034B6D72A37C57400919D2A /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C034B6D42A37C57400919D2A /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		C034B6DA2A37C5A200919D2A /* SwiftUIX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C034B6D92A37C5A200919D2A /* XCRemoteSwiftPackageReference "SwiftUIX" */;
+			productName = SwiftUIX;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C034B3EA2A379EFC00919D2A /* Project object */;
 }

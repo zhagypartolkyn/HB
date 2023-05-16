@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "realm-core",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/realm/realm-core.git",
+      "state" : {
+        "revision" : "93cc224680a520a84e1c01aa8866042c52eb7958",
+        "version" : "13.15.0"
+      }
+    },
+    {
+      "identity" : "realm-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/realm/realm-swift.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "42852fe1ea58db2ec20d723f6341f127b63865e9"
+      }
+    },
+    {
+      "identity" : "swiftuix",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SwiftUIX/SwiftUIX.git",
+      "state" : {
+        "revision" : "75d5be2c85ec1e3ccbd9d99d321dd3abb5955e8d",
+        "version" : "0.1.5"
+      }
+    }
+  ],
+  "version" : 2
+}
